@@ -16,13 +16,13 @@ export const Logo = (props: Props) => {
   return (
     /* eslint-disable @next/next/no-img-element */
     <img
-      alt="Payload Logo"
+      alt="Logo"
       width={193}
       height={34}
       loading={loading}
       fetchPriority={priority}
       decoding="async"
-      className={clsx('max-w-[9.375rem] w-full h-[34px]', className)}
+      className='max-w-[9.375rem] w-full h-[34px]'
       src="https://sc7hklv2hdu6drdj.public.blob.vercel-storage.com/eco_logo.png"
     />
   )
