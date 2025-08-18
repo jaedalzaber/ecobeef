@@ -8,6 +8,7 @@ import type { Header } from '@/payload-types'
 
 import { Logo } from '@/components/Logo/Logo'
 import { HeaderNav } from './Nav'
+import HamburgerMenu from '@/components/Navigation/Hamburger'
 
 interface HeaderClientProps {
   data: Header
@@ -31,11 +32,12 @@ export const HeaderClient: React.FC<HeaderClientProps> = ({ data }) => {
 
   return (
     <header className="container relative z-20   " >
-      <div className="py-8 flex justify-between">
-        <Link href="/">
+      <div className="py-8 flex justify-between" >
+        <Link href="/" className='absolute z-30'>
           <Logo loading="eager" priority="high" />
         </Link>
         <HeaderNav data={data} />
+        <HamburgerMenu />
       </div>
     </header>
   )

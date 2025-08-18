@@ -38,7 +38,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           <SmoothScrollProvider>
             <Header />
             {children}
-            <Footer />
+            {/* <Footer /> */}
           </SmoothScrollProvider>
         </Providers>
       </body>
