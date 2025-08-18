@@ -143,7 +143,7 @@ const HomeBlockComp: React.FC<Home> = ({missionImage}) => {
           </p>
         </div>
         <div className="mx-6">
-          <Media fill imgClassName="-z-10 object-cover" priority resource={missionImage} />
+          {/* <Media fill imgClassName="-z-10 object-cover" priority resource={missionImage} /> */}
           <p className="text-lg font-normal text-[#4e4e4e] leading-8 tracking-wide">
             Our mission is to build an ecosystem based on consideration for environmental resources
             (low impact) and respect for food diversity, that is, to use data to improve the entire
