@@ -8,7 +8,7 @@ export const Home: Block = {
       type: 'upload',
       relationTo: 'media',
       label: 'Mission Image',
-      required: false,
+      required: false, 
     },
   ],
   interfaceName: 'Home',
