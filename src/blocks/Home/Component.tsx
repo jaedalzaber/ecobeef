@@ -8,7 +8,7 @@ function HomeBlockComp() {
       <span>hello</span>
       <span>hello</span>
       <span>hello</span>
-    </div>
+    </div> 
   )
 }
 
